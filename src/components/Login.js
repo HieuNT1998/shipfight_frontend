@@ -3,7 +3,7 @@ import { Button, Form, FormGroup, Label, Input }
     from 'reactstrap';
 
 
-class App extends Component {
+class Login extends Component {
     render() {
         return (
             <Form className="login-form">
@@ -40,4 +40,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Login;
