@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-
 import { Layout, Button } from 'antd';
 import NavBar from "./components/navbar/NavBar";
+import Login from "./components/Login"
 
 const { Header, Content, Footer } = Layout;
 const App = () => (
@@ -11,10 +11,10 @@ const App = () => (
         <NavBar />
         <Content className='main'>
           <div className="site-layout-content">Content dsfdsfd
-              <Button type="primary" block>
+              {/* <Button type="primary" block>
                   Primary
-              </Button>
-
+              </Button> */}
+              <Login></Login>
           </div>
         </Content>
         <Footer className="footer">Ant Design ©2018 Created by Ant UED</Footer>
